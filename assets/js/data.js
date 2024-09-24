@@ -3,9 +3,13 @@
 
     fetch("data.json", {
         method: 'GET',
+        headers: {
+            "content-type": "application/json",
+            "accept": "application/json"
+        },
     }).then(res=>{
         if(res.ok){
-            console.log(res)
+            return res;
         }else{
             console.log(res.status, res.statusText, res.url)
             throw new error(res.status, res.statusText, res.url)
