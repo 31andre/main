@@ -9,7 +9,7 @@
         },
     }).then(res=>{
         if(res.ok){
-            return res;
+            return res.json();
         }else{
             console.log(res.status, res.statusText, res.url)
             throw new error(res.status, res.statusText, res.url)

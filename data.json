@@ -1,3 +1,14 @@
 {
-    "name": "Andre Exauce"
+    "user" : [
+        {
+            "fullname": "Koffi Koffi Andre",
+            "title" : "Andre Exauce",
+            "email" : "koffikoffiandre2000@gmail.com",
+            "about" : "Orange Côte d’Ivoire Responsable en gestion de back office et développement d'applications, j'associe une expertise technique avancée à des compétences organisationnelles solides pour rationaliser les processus internes. Mon approche axée sur l'innovation me permet de créer des solutions efficaces qui répondent aux défis métiers tout en améliorant la performance globale.",
+            "type" : "string"
+        }
+    ],
+    "project" : [{
+        "name" : "Project"
+    }]
 }
